@@ -1,0 +1,28 @@
+:root {
+  --paper: #fbf8f2;
+  --card: #ffffff;
+  --ink: #14213d;
+  --ink-soft: #4a5468;
+  --line: #e8e1d4;
+  --accent: #ff5a36;
+  --accent-dark: #e2431f;
+  --true: #0f8a5f;
+  --false: #d1342f;
+  --misleading: #c27a00;
+  --unverified: #5b6b85;
+  --serif: 'Fraunces', Georgia, serif;
+  --sans: 'Outfit', system-ui, sans-serif;
+  --mono: 'JetBrains Mono', monospace;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: var(--sans);
+  background: var(--paper);
+  color: var(--ink);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+::selection { background: var(--accent); color: #fff; }
+a { color: inherit; }
